@@ -186,9 +186,9 @@ export const DOC_TYPES: DocType[] = [
   },
 ];
 
-// The people assigned to this company. Standing is a firm: every client gets a
-// named lawyer and a chartered secretary. AI is their leverage, not their
-// replacement.
+// The independent, licensed professionals assigned to this company from Standing's
+// vetted network: a Legal Practitioner and a chartered Company Secretary. Each
+// issues work in their own name under their own licence; AI is their leverage.
 export interface TeamMember {
   initials: string;
   name: string;

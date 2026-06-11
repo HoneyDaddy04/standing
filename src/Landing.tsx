@@ -53,7 +53,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
         <div className="wrap hero-grid">
           <div>
             <span className="eyebrow">
-              <span className="dot" /> An AI-native compliance and legal firm
+              <span className="dot" /> AI-native compliance and legal, done for you
             </span>
             <h1 className="hero-title">
               Never miss a filing. Never overpay for a <em>contract</em>.
@@ -105,7 +105,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
       <section className="band" id="services">
         <div className="wrap">
           <Reveal className="sec-head">
-            <div className="sec-eyebrow">One firm, two jobs</div>
+            <div className="sec-eyebrow">One service, two jobs</div>
             <h2 className="sec-title">Your company's back office and lawyer, under one roof.</h2>
             <p className="sec-sub">
               We merged the two services every Nigerian company pays for separately.
@@ -173,7 +173,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
         <div className="wrap">
           <Reveal className="sec-head">
             <div className="sec-eyebrow">The people on your account</div>
-            <h2 className="sec-title">Not a chatbot. A firm that picks up.</h2>
+            <h2 className="sec-title">Not a chatbot. Real professionals who pick up.</h2>
             <p className="sec-sub">
               Every company on Standing is assigned named professionals who own your
               matters and answer in your workspace, so there is always a real person
@@ -333,9 +333,17 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
       </section>
 
       <footer>
-        <div className="wrap foot-inner">
+        <div className="wrap">
           <Logo size={26} />
-          <div>© 2026 Standing. An AI-native compliance and legal firm. Not legal advice until engaged.</div>
+          <p className="foot-legal">
+            Standing works with a vetted network of independent, licensed Nigerian
+            professionals (NBA-registered Legal Practitioners and ICSAN-chartered
+            Company Secretaries). We vet the professionals, manage the work and stand
+            behind the service. Each contract, filing and certification is issued by
+            the named professional in their own name and under their own licence.
+            Standing is not a law firm and does not provide legal advice.
+          </p>
+          <p className="foot-copy">© 2026 Standing Technologies.</p>
         </div>
       </footer>
     </>

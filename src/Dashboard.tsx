@@ -97,6 +97,10 @@ export default function Dashboard({ onExit }: { onExit: () => void }) {
         <div className="side-foot">
           <button onClick={() => setPicker(true)}><Icon.plus size={15} /> &nbsp;New request</button>
           <button onClick={onExit}><Icon.back size={15} /> &nbsp;Back to site</button>
+          <p className="side-disclaimer">
+            Work is issued by independent licensed professionals under their own
+            licence. Standing is not a law firm. © 2026 Standing Technologies.
+          </p>
         </div>
       </aside>
 
